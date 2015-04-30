@@ -26,7 +26,7 @@ function httpServer(request, response) {
 		break;
 
 		case "DELETE":
-		var path = url.parse(request.url).pathname;
+		var path = u rl.parse(request.url).pathname;
 
 		var i = parseInt(path.slice(1), 10);
 
